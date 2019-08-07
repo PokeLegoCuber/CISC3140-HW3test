@@ -1,7 +1,6 @@
 language: python
 
 python:
-    - "3.7"
     - "3.6"
 
 # install dependencies
@@ -15,7 +14,7 @@ branches:
   only:
     - master
 
-deploy:
-  - provider: heroku
-    api_key: 78832b22-f8e4-44d8-8917-eaf540f2e965
-    app: cisc3140hw3
+# deploy:
+#   - provider: heroku
+#     api_key: 78832b22-f8e4-44d8-8917-eaf540f2e965
+#     app: cisc3140hw3
