@@ -1,0 +1,5 @@
+# requirements/prod.txt
+
+# Everything needed in production
+# Flask
+Flask==1.1.1
