@@ -2,7 +2,7 @@ language: python
 python:
 - '3.6'
 install:
-- pip install -r requirements/dev.txt
+- pip install -r requirements.txt
 script:
 - python test_app.py
 branches:
@@ -11,3 +11,4 @@ branches:
 deploy:
   api_key:
     secure: mOSoFwTQN95YT5PdWtobLmr9qA1+m6PsVs0+GUZOnqHIjM75MsTWf2XdqiwR3JE1ebJM4BYQfdFGfsiyC0lRDLGgAdrjkl5M0rx8nP2bivqNswxvjGfnmjiO/k19tDmjB17OcQFsQ8BHF2C9SrnPRKqyqRftQARK5fah4jZIvCh5TEgH37aQ3sMYcFuIHcFxopXPGdUr/s/WuoJ8h69bNALHmjzkPDH4tphaHIV63HCyJFHDSfqS1QXpfRBq0ux0IZdvchT21pj9qBsBsR8deS7lVbJ1pFirs5jhe0H+Yd786NmcZ2AruCsKe/iN9xX9OqQphLl+1MAU0tygL2LlFZ+yYO3H26RSjHffEoVzIn3/rLRS2g0AKHHqMWHnBoj3IuoSEZuSu+RBdBQha/gYvxpVw8Vv7wTw70Wm28JgsghzaJVpJNSBGX77Wgo8EdODEAAi9NMKBfBdXXQm1vazUhyxkIBlE+PAScEkICiG7jgoer6kmJ7jf5DWAtVzs2NqLJD17/s0EOSZfuAV/uZfGQzsj29WpwCEM8DAZSGnv2MDph+mIysO4ddok5QV76WfrSZV57vkV623PHtSOARBuk/dh8e4AXyCXkF+UovFHiNvklNm4E48JyPIwfgMD9h8u8h8bMLt3V+tq2ta1u0hMOtwsygflCQPUYYfq/+KeOU=
+  app: cisc3140test3-api-heroku
